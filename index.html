@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="container text-center py-5 shadow-lg myContainer">
+        <div>
+            <img id="user-img" class="rounded-circle p-2 border bg-white"
+                src="https://64.media.tumblr.com/0ebd9d306b212e7fe202fc150211c268/9ddee3b5d0fd062a-3b/s540x810/fd039b55b8cb1892ff3519fc8ed1e5d46b5670f3.png">
+        </div>
+        <hr class="hr-line">
+        <div>
+            <h2 id="user-name">Roronoa Zoro</h2>
+            <p>Gender: <span id="user-gender">male</span></p>
+            <h6 id="user-email">roronoa@zoro.com</h6>
+        </div>
+        <div class="mt-5">
+            <button onclick="loadData()" class="btn btn-primary rounded-pill">Generate</button>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
